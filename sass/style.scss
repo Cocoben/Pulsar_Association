@@ -1,7 +1,720 @@
 @import 'libs/reset.scss';
 
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
+.container {
+  margin: 0 auto;
+  padding: 0 30px;
+  max-width: 1400px;
+  position: relative;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 0 7.5px;
+  width: 100%;
+}
+
+
+/* For tablets: */
+@media only screen and (min-width: 600px) {
+
+  .col-s-1 {
+    width: 8.33%;
+  }
+
+  .col-s-2 {
+    width: 16.66%;
+  }
+
+  .col-s-3 {
+    width: 25%;
+  }
+
+  .col-s-4 {
+    width: 33.33%;
+  }
+
+  .col-s-5 {
+    width: 41.66%;
+  }
+
+  .col-s-6 {
+    width: 50%;
+  }
+
+  .col-s-7 {
+    width: 58.33%;
+  }
+
+  .col-s-8 {
+    width: 66.66%;
+  }
+
+  .col-s-9 {
+    width: 75%;
+  }
+
+  .col-s-10 {
+    width: 83.33%;
+  }
+
+  .col-s-11 {
+    width: 91.66%;
+  }
+
+  .col-s-12 {
+    width: 100%;
+  }
+}
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+
+  .col-1 {
+    width: 8.33%;
+  }
+
+  .col-2 {
+    width: 16.66%;
+  }
+
+  .col-3 {
+    width: 25%;
+  }
+
+  .col-4 {
+    width: 33.33%;
+  }
+
+  .col-5 {
+    width: 41.66%;
+  }
+
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-8 {
+    width: 66.66%;
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 83.33%;
+  }
+
+  .col-11 {
+    width: 91.66%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+}
+
+// Couleur
+
+$bleu: #30B2DB;
+$orange:#F3B94B;
+$rouge:#D65E3F;
+
+
+//Texte
+
+%font {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+}
+
+a {
+  @extend %font;
+  text-decoration: none;
+}
+
+p {
+  @extend %font;
+  font-size: 11px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+h1 {
+  @extend %font;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+h2 {
+  @extend %font;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $rouge;
+  position: relative;
+  margin: 42px 0 36px;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 2px;
+    background: $rouge;
+    bottom: 0px;
+    left: calc(50% - 30%);
+  }
+}
+
+.containerH2 {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  @extend %font;
+  font-size: 13px;
+}
+
+h4 {
+  @extend %font;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  p {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 36px;
+    margin: 140px 0 150px;
+
+    &:before {
+      height: 3px;
+      bottom: -15px;
+    }
+  }
+
+  h3 {
+    font-size: 36px;
+  }
+
+  h4 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+}
+
+
+
+// Bouton
+
+.btn {
+  display: inline-block;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  padding: 10px 35px;
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #FFF;
+
+}
+
+@media only screen and (min-width: 768px) {
+  .btn {
+    padding: 15px 35px;
+    font-size: 18px;
+  }
+}
+
+
+
+header {
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+
+  h1 {
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+
+    a {
+      background: url("../asset/img/LOGO-CIMAISE-COULEUR-S.png") no-repeat center/60px;
+      height: 100%;
+      width: 50%;
+      display: inline-block;
+
+    }
+  }
+
+  nav {
+    visibility: hidden;
+    background: #F4F4F4;
+    height: calc(100vh - 64px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+    position: absolute;
+    top: 64px;
+    z-index: 1;
+
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+    }
+
+    a {
+      font-weight: normal;
+      line-height: 28px;
+      font-size: 22px;
+      color: #000000;
+    }
+
+    .btn {
+      background: $bleu;
+      color: #FFF;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    display: inherit;
+    height: 90px;
+
+    h1 {
+      position: absolute;
+      left: 5%;
+      z-index: 1;
+      width: inherit;
+    }
+
+    h1>a {
+      background: #FFF url("../asset/img/LOGO-CIMAISE-COULEUR.png") no-repeat center/70%;
+      border-radius: 10px;
+      display: block;
+      height: 230px;
+      width: 180px;
+    }
+
+    .menu {
+      display: none;
+    }
+
+    nav {
+      visibility: visible;
+      width: inherit;
+      height: 100%;
+      position: inherit !important;
+      justify-content: end;
+    }
+
+    ul {
+      width: calc(100% - (7% + 180px));
+      flex-direction: inherit !important;
+    }
+  }
+}
+
+
+
+
+
+
+
+#imageHomePage {
+  height: calc(100vh - 64px);
+  background: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: url(../asset/img/BackgroundHome.jpg) center center no-repeat;
+
+  &>div {
+    display: flex;
+    justify-content: center;
+  }
+
+  &>div>div {
+    display: table;
+  }
+
+  .underlineH1 {
+    display: block;
+    height: 6px;
+    width: 195px;
+    margin: 15px 0 35px;
+    background: #FFFFFF;
+  }
+
+  p {
+    font-size: 13px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+  }
+
+  .btn {
+    background: $orange;
+
+  }
+
+  @media only screen and (min-width: 768px) {
+    height: calc(100vh - 90px);
+
+    .underlineH1 {
+      width: 343px;
+      height: 9px;
+      margin: 40px 0 50px;
+    }
+
+    p {
+      font-size: 28px;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #scrollDown {
+    height: 72px;
+    width: 72px;
+    position: absolute;
+    bottom: 40px;
+    left: calc(50% - 45px);
+    background: #FFFFFF;
+    border-radius: 50px;
+
+    a {
+      display: block;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+#uneHomePage {
+  padding-bottom: 15%;
+
+  article {
+    position: relative;
+    display: block;
+
+    div {
+      position: absolute;
+      bottom: -80px;
+      left: calc(50% - 30%);
+      background: $rouge;
+      width: 60%;
+      height: 150px;
+      padding: 4%;
+    }
+
+    h3 {
+      color: #FFFFFF;
+      margin-bottom: 10px;
+    }
+
+    p,
+    a {
+      font-size: 11px;
+      color: #FFFFFF;
+    }
+
+    @media only screen and (min-width: 768px) {
+
+      div {
+        bottom: -160px;
+        left: calc(50% - 40%);
+        width: 80%;
+        height: 290px;
+        padding: 5%;
+
+      }
+
+      h3 {
+        margin-bottom: 30px;
+      }
+
+      p,
+      a {
+        font-size: 18px;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+#citeHomePage {
+  background: $orange;
+
+  &>div {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  h2 {
+    color: #FFFFFF;
+  }
+
+  h2:before {
+    background: #FFFFFF;
+  }
+
+  p {
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+  }
+
+  .btn {
+    border: 2px solid #FFFFFF;
+  }
+
+  @media only screen and (min-width: 768px) {
+
+    h2 {
+      margin: 80px 0 60px 0;
+    }
+
+    &>div {
+      padding-bottom: 60px;
+    }
+
+    p {
+      font-size: 36px;
+      margin-bottom: 100px;
+
+    }
+  }
+}
+
+
+
+
+
+
+#actuHomePage {
+  div {
+    display: flex;
+    justify-content: center;
+  }
+
+  h2:before {
+    background: $rouge;
+  }
+
+  .actualite {
+    margin-bottom: 60px;
+  }
+
+  .actualite>p:nth-child(1) {
+    font-weight: 500;
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+
+  .actualite>p>strong {
+    display: block;
+  }
+
+  .btn {
+    border-color: $bleu;
+    color: $bleu;
+    margin: 0 auto;
+    display: table;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .actualite>p:nth-child(1) {
+      font-size: 18px;
+    }
+  }
+}
+
+
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  background: #C4C4C4;
+  height: 172px;
+
+  h2 {
+    color: #000000;
+
+    &::before {
+      content: inherit;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    margin-bottom: 50px;
+    height: 450px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  padding: 85px 0 20px;
+  color: #fff;
+  background-color: #E24827;
+
+  a {
+    color: #fff;
+  }
+
+  .missionLogo {
+    div:nth-child(1) {
+      order: 1;
+    }
+  }
+
+  img {
+    width: 60px;
+  }
+
+  li {
+    padding-bottom: 15px;
+    font-size:11px;
+    font-weight: normal;
+  }
+
+  p {
+    max-width: 190px;
+    font-size: 11px;
+  }
+
+  .contenuFooter {
+    display: inline-block;
+    width: 100%;
+  }
+
+
+  section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+
+  #mentionLeg {
+    display: inline;
+    background-color: #E24827;
+    color: #fff;
+    font-size: 13px;
+    justify-content: space-around;
+    width: 305px;
+
+    a {
+      width: 97px;
+      
+    }
+  }
+
+  #mobileCopyright {
+    display: none;
+  }
+
+
+
+  @media only screen and (min-width: 768px) {
+    .missionLogo {
+      div:nth-child(1) {
+        order: 0;
+      }
+      div:nth-child(2){
+        margin: 0 auto;
+      }
+    }
+
+    img {
+      width: 138px;
+      padding-right: 30px;
+    }
+
+    p {
+      font-size: 14px;
+      max-width: 400px;
+    }
+
+    li{
+      font-size: 18px;
+      padding-bottom: 30px;
+    }
+
+    section{
+      justify-content: inherit;
+    }
+    
+  }
+}
