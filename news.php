@@ -1,7 +1,8 @@
 <?php include ('asset/inc/head.inc.php');?>
 
 
-<title>A la une</title>
+<title>Cimaise - A la une</title>
+<meta name="description" content="description de la page" />
 </head>
 
 <?php include ('asset/inc/nav.inc.php');?>

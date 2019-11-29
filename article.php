@@ -26,15 +26,11 @@ if($_GET['id'] == 1){
 
 
 
-
-
-
-
-
 include ('asset/inc/head.inc.php');?>
 
 
-<title>Article</title>
+<title>Cimaise - Article</title>
+<meta name="description" content="description de la page" />
 </head>
 
 <?php include ('asset/inc/nav.inc.php');?>

@@ -1,7 +1,8 @@
 <?php include ('asset/inc/head.inc.php');?>
 
 
-<title>Cimaise</title>
+<title>Cimaise - Qui sommes-nous ?</title>
+<meta name="description" content="description de la page" />
 </head>
 
 <?php include ('asset/inc/nav.inc.php');?>
@@ -40,7 +41,7 @@
                 <p>Tout part d’une discussion entre amis “Que veux dire ce tableau ?”. De là nous sommes posés cette
                     question sur chacune des oeuvres que nous croisions.  Durant nos observations, nous avons compris
                     quelques choses de très important, les oeuvres ont une histoire, un processus créatif qui nous
-                    échappe. <p>
+                    échappe. </p>
             </div>
 
             <div class="col-5 ligne">
