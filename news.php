@@ -10,15 +10,7 @@
 <main id="news">
 
 
-    <div class="bannerHome">
-        <div class="container">
-            <div class="col-8">
-                <h1>à la une</h1>
-                <span class="underlineH1"></span>
-                <p>Retrouvez ici notre acutalité, nos articles. </p>
-            </div>
-        </div>
-    </div>
+    <h1>à la une</h1>
 
     <section class='container'>
         <h2>notre actualité</h2>

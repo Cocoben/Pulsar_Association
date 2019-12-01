@@ -12,17 +12,15 @@
 
 <main id="contactPage">
 
-    <div class="bannerHome">
-        <div class="container">
-            <div class="col-8">
-                <h1>contact</h1>
-            </div>
-        </div>
-    </div>
+
+    <h1>contact</h1>
 
 
+    <h2>contactez-nous</h2>
 
     <section class="container">
+
+    
 
         <div class="col-10">
 
@@ -61,7 +59,7 @@
                 </label>
                 <h3>notre équipe relation presse</h3>
                 <div id="contactPresse">
-                    <p>lorem ipsuem</p>
+                    <p>Soon</p>
                 </div>
             </div>
 

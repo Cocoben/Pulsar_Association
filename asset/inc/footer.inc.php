@@ -31,17 +31,21 @@
                 <h4>Nous suivre</h4>
                 <div>
 
-                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                    <a href=""><i class="fab fa-twitter"></i></a>
-                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/Cimaise-102230491260265/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/CimaiseArt" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/cimaise.art/" target="_blank"><i class="fab fa-instagram"></i></a>
 
-            </div>
+                </div>
             </section>
 
         </div>
-        <p id="mentionLeg"><a href="#"> Mentions legales </a> ©cimaise 2019 || all rights reserved</p>
+        <p id="mentionLeg"><a href="mentionLegal.php">Mentions legales </a> ©Cimaise 2019 || All rights reserved</p>
     </div>
 </footer>
 
 
 <script src="asset/js/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
