@@ -12,16 +12,16 @@ if(!isset($_GET['id']) || empty($_GET['id'])){
 
 if($_GET['id'] == 1){
     $titreArticle = 'Pop art';
-    $contentArticle = '';
+    $contentArticle = '<p>En élaboration</p>';
 }else if($_GET['id'] == 2){
     $titreArticle = 'Art thérapie';
-    $contentArticle = '';
+    $contentArticle = 'Soon';
 }else if($_GET['id'] == 3){
     $titreArticle = 'Pop art';
-    $contentArticle = '';
+    $contentArticle = 'Soon';
 }else if($_GET['id'] == 4){
     $titreArticle = 'Pop art';
-    $contentArticle = '';
+    $contentArticle = 'Soon';
 }
 
 
@@ -39,22 +39,21 @@ include ('asset/inc/head.inc.php');?>
 
 <main id="articlePage">
 
-    <div class="bannerHome">
-        <div class="container">
-            <div class="col-8">
-                <h1><?=$titreArticle;?></h1>
-            </div>
+
+    <h2><?=$titreArticle;?></h2>
+
+
+
+    <section class="container">
+
+    <div class="col-10">
+            <?=$contentArticle;?>
+
         </div>
-    </div>
 
+</section>
 
-
-    <div class="container col-10">
-
-
-    </div>
-
-<main>
+</main>
 
     <?php include ('asset/inc/footer.inc.php');?>
 

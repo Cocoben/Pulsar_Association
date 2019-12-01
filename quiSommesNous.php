@@ -9,25 +9,9 @@
 
 <main id="quiSommesNousPage">
 
-    <div class="bannerHome">
-        <div class="container">
-            <div class="col-8">
-                <h1>qui sommes-nous ?</h1>
-                <span class="underlineH1"></span>
-                <p>Créée en 2019, Cimaise regroupe un collectif de personnes ayant
-                pour ambition <strong>la revalorisation</strong> des arts dans une époque où la vitesse de
-                l’information
-                nous empêche d’émettre un avis sur la société actuelle.</p>
-            </div>
-        </div>
-    </div>
 
-
-
-
-
-
-
+    <h1>qui sommes-nous ?</h1>
+      
     <div class="container">
 
 
@@ -39,7 +23,7 @@
                 <h3>La création</h3>
 
                 <p>Tout part d’une discussion entre amis “Que veux dire ce tableau ?”. De là nous sommes posés cette
-                    question sur chacune des oeuvres que nous croisions.  Durant nos observations, nous avons compris
+                    question sur chacune des oeuvres que nous croisions. Durant nos observations, nous avons compris
                     quelques choses de très important, les oeuvres ont une histoire, un processus créatif qui nous
                     échappe. </p>
             </div>

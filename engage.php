@@ -9,15 +9,9 @@
 
 <main id="engage">
 
-    <div class="bannerHome">
-        <div class="container">
-            <div class="col-8">
-                <h1>s’engager</h1>
-                <span class="underlineH1"></span>
-                <p>Nous avons besoin de vous! Vous pouvez nous rejoindre et être bénévole au sein de notre association. </p>
-            </div>
-        </div>
-    </div>
+    
+    <h1>s’engager</h1>
+
 
     <div class="container">
 
@@ -38,16 +32,9 @@
                         <h2>faire un don</h2>
                     </a>
                 </div>
-        
             </section>
-
         </div>
-
     </div>
-
-
-
-
 </main>
 
 

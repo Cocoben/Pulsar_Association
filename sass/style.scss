@@ -31,7 +31,7 @@ a {
 
 p {
   @extend %font;
-  font-size: 11px;
+  font-size: 14px;
 }
 
 strong {
@@ -44,12 +44,13 @@ h1 {
   font-size: 24px;
   text-transform: uppercase;
   color: #FFFFFF;
+  display: none;
 }
 
 h2 {
   @extend %font;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 18px;
   line-height: 42px;
   text-align: center;
   text-transform: uppercase;
@@ -71,7 +72,7 @@ h2 {
 
 h3 {
   @extend %font;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
   color: $orange;
@@ -146,7 +147,6 @@ h4 {
 
 %scale {
   transition: all 0.2s ease-out;
-
   &:hover {
     transform: scale(1.02);
   }
@@ -155,10 +155,6 @@ h4 {
 %btnCenter {
   margin: auto;
 }
-
-
-
-
 
 header {
   height: 64px;
@@ -173,7 +169,6 @@ header {
   z-index: 1;
   transition: all 0.25s ease-out;
 
-
   #h1 {
     display: inline-block;
     height: 100%;
@@ -187,7 +182,6 @@ header {
       transition: all 0.25s ease-out;
       color: transparent;
       animation-fill-mode: forwards;
-
     }
   }
 
@@ -233,7 +227,11 @@ header {
       li {
         text-align: center;
         width: 100%;
-      }
+
+        .far{
+          display: none;
+        }
+      }      
     }
 
     a {
@@ -245,7 +243,6 @@ header {
   }
 
   @media only screen and (min-width: 768px) {
-
     height: 90px;
     background: #F4F4F4;
     justify-content: flex-end;
@@ -291,6 +288,7 @@ header {
             top: calc(50% - 12.5px);
             font-size: 25px;
             position: absolute;
+            display: inline;
           }
         }
       }
@@ -303,7 +301,6 @@ header {
 
 @media only screen and (min-width: 768px) and (max-width:1500px) {
   nav {
-
     .btn {
       position: relative;
       padding: 15px 35px !important;
@@ -312,7 +309,6 @@ header {
       span {
         display: none;
       }
-
     }
   }
 }
@@ -336,6 +332,10 @@ main {
   position: relative;
   background: url(../asset/img/block/background3.png) center center no-repeat;
 
+  h1{
+    display: inline;
+  }
+
   &>div {
     display: flex;
     flex-direction: column;
@@ -355,7 +355,6 @@ main {
   }
 
   p {
-    font-size: 13px;
     color: #FFFFFF;
     margin-bottom: 50px;
   }
@@ -383,7 +382,6 @@ main {
     height: calc(100vh - 64px);
     background: url(../asset/img/block/backgroundHome.jpg) center center no-repeat;
 
-
     @media only screen and (min-width: 768px) {
       height: calc(100vh - 90px);
     }
@@ -405,6 +403,15 @@ main {
     left: calc(50% - 36px);
     background: #FFFFFF;
     border-radius: 50px;
+    transition: all .2s ease-out;
+
+    &:hover{
+      background:$orange ;
+
+      i{
+        color:#FFFFFF ;
+      }
+    }
 
     a {
       display: flex;
@@ -448,11 +455,10 @@ main {
     div {
       position: absolute;
       bottom: -80px;
-      left: calc(50% - 30%);
-      background: $orange;
-      width: 60%;
-      height: 150px;
-      padding: 4%;
+      left: calc(50% - 40%);
+      background:#FBB909;
+      width: 80%;
+      padding: 5%;
       border-radius: 20px;
     }
 
@@ -465,7 +471,17 @@ main {
     p,
     a {
       color: #FFFFFF;
-      font-size: 11px;
+      margin: 0;
+    }
+
+    p{
+      margin-bottom: 1%;
+    }
+
+    a{
+      font-size: 14px;
+      text-transform:uppercase;
+      font-weight: bold;
     }
 
     @media only screen and (min-width: 768px) {
@@ -476,8 +492,7 @@ main {
         bottom: -140px;
         left: calc(50% - 40%);
         width: 80%;
-        height: 260px;
-        padding: 5%;
+        padding: 6%;
       }
 
       p,
@@ -760,17 +775,6 @@ main {
 
 // Article
 
-#articlePage {
-  h1 {
-    color: $bleu;
-    text-align: center;
-  }
-
-  .bannerHome {
-    background: #fff;
-  }
-}
-
 
 // Contact
 
@@ -914,10 +918,7 @@ main {
 
 
 
-
-
-
-
+//Footer
 
 
 footer {
@@ -945,8 +946,6 @@ footer {
     font-weight: normal;
   }
 
- 
-
   .contenuFooter {
     display: inline-block;
     width: 100%;
@@ -955,7 +954,6 @@ footer {
       max-width: 190px;
     }
   }
-
 
   section {
     flex-direction: row;
@@ -981,7 +979,6 @@ footer {
     width: 100%;
     text-align: center;
     margin: 0;
-
   }
 
   #mobileCopyright {
@@ -1030,7 +1027,6 @@ footer {
         margin-right: 5%;
       }
     }
-
   }
 }
 

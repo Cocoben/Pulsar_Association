@@ -181,7 +181,7 @@ a {
 }
 
 p {
-  font-size: 11px;
+  font-size: 14px;
 }
 
 strong {
@@ -193,11 +193,12 @@ h1 {
   font-size: 24px;
   text-transform: uppercase;
   color: #FFFFFF;
+  display: none;
 }
 
 h2 {
   font-weight: bold;
-  font-size: 13px;
+  font-size: 18px;
   line-height: 42px;
   text-align: center;
   text-transform: uppercase;
@@ -217,7 +218,7 @@ h2:before {
 }
 
 h3 {
-  font-size: 13px;
+  font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
   color: #FBB909;
@@ -353,6 +354,9 @@ header nav ul li {
   text-align: center;
   width: 100%;
 }
+header nav ul li .far {
+  display: none;
+}
 header nav a {
   font-weight: normal;
   line-height: 28px;
@@ -402,6 +406,7 @@ header nav a {
     top: calc(50% - 12.5px);
     font-size: 25px;
     position: absolute;
+    display: inline;
   }
 }
 
@@ -433,6 +438,9 @@ main {
   position: relative;
   background: url(../asset/img/block/background3.png) center center no-repeat;
 }
+.bannerHome h1 {
+  display: inline;
+}
 .bannerHome > div {
   display: flex;
   flex-direction: column;
@@ -449,7 +457,6 @@ main {
   background: #FFFFFF;
 }
 .bannerHome p {
-  font-size: 13px;
   color: #FFFFFF;
   margin-bottom: 50px;
 }
@@ -486,6 +493,13 @@ main {
     left: calc(50% - 36px);
     background: #FFFFFF;
     border-radius: 50px;
+    transition: all 0.2s ease-out;
+  }
+  #scrollDown:hover {
+    background: #FBB909;
+  }
+  #scrollDown:hover i {
+    color: #FFFFFF;
   }
   #scrollDown a {
     display: flex;
@@ -510,11 +524,10 @@ main {
 #uneHomePage article div {
   position: absolute;
   bottom: -80px;
-  left: calc(50% - 30%);
+  left: calc(50% - 40%);
   background: #FBB909;
-  width: 60%;
-  height: 150px;
-  padding: 4%;
+  width: 80%;
+  padding: 5%;
   border-radius: 20px;
 }
 #uneHomePage article h3 {
@@ -525,7 +538,15 @@ main {
 #uneHomePage article p,
 #uneHomePage article a {
   color: #FFFFFF;
-  font-size: 11px;
+  margin: 0;
+}
+#uneHomePage article p {
+  margin-bottom: 1%;
+}
+#uneHomePage article a {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 @media only screen and (min-width: 768px) {
   #uneHomePage article {
@@ -535,8 +556,7 @@ main {
     bottom: -140px;
     left: calc(50% - 40%);
     width: 80%;
-    height: 260px;
-    padding: 5%;
+    padding: 6%;
   }
   #uneHomePage article p,
 #uneHomePage article a {
@@ -733,14 +753,6 @@ main {
 }
 .team img {
   width: 100%;
-}
-
-#articlePage h1 {
-  color: #30B2DB;
-  text-align: center;
-}
-#articlePage .bannerHome {
-  background: #fff;
 }
 
 #contactPage {
