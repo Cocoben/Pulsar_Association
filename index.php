@@ -2,7 +2,7 @@
 
 
 <title>Cimaise - L’association qui aide à comprendre les enjeux de société par l’art.</title>
-<meta name="description" content="description de la page" />
+<meta name="description" content="L’association qui aide à comprendre les enjeux de société par l’art." />
 </head>
 
 <?php include ('asset/inc/nav.inc.php');?>
