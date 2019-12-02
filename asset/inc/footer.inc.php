@@ -8,7 +8,7 @@
                     <img src="asset/img/logo/LOGO-CIMAISE-BLANC.png" alt="Cimaise">
                 </div>
                 <div>
-                    <h4>Missions</h4>
+                    <p class="h4">Missions</p>
                     <p>Les arts sont des moyens d’expression des mœurs dans une époque donnée. Comprendre une oeuvre,
                         c’est comprendre l’environnement et le contexte dans laquelle elle émerge.</p>
                 </div>
@@ -16,7 +16,7 @@
 
             <section class="col-3">
                 <div class="planSite">
-                    <h4>Plan du site</h4>
+                    <p class="h4">Plan du site</p>
                     <ul>
                         <li><a href="quiSommesNous.php">Qui sommes nous ?</a></li>
                         <li><a href="engage.php">S'engager</a></li>
@@ -28,7 +28,7 @@
             </section>
 
             <section class="col-3 reseaux">
-                <h4>Nous suivre</h4>
+                <p class="h4"> Nous suivre</p>
                 <div>
 
                     <a href="https://www.facebook.com/Cimaise-102230491260265/" target="_blank"><i class="fab fa-facebook-f"></i></a>

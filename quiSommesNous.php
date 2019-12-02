@@ -2,19 +2,16 @@
 
 
 <title>Cimaise - Qui sommes-nous ?</title>
-<meta name="description" content="description de la page" />
+<meta name="description" content="Retrouver les membres et le consept derrère Cimaise" />
 </head>
 
 <?php include ('asset/inc/nav.inc.php');?>
 
 <main id="quiSommesNousPage">
 
-
     <h1>qui sommes-nous ?</h1>
       
     <div class="container">
-
-
 
         <h2>Notre ADN</h2>
 
@@ -112,9 +109,7 @@
 
 <main>
 
-    <?php include ('asset/inc/footer.inc.php');?>
-
-  
+<?php include ('asset/inc/footer.inc.php');?>
 
 </body>
 
