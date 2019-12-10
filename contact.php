@@ -2,7 +2,7 @@
 
 
 <title>Cimaise - Contact</title>
-<meta name="description" content="description de la page" />
+<meta name="description" content="description de  page" />
 </head>
 
 <?php include ('asset/inc/nav.inc.php');?>
@@ -15,7 +15,6 @@
 
     <h1>contact</h1>
 
-
     <h2>contactez-nous</h2>
 
     <section class="container">
@@ -26,11 +25,8 @@
 
             <div>
                 <h3>nous contacter</h3>
-                <p>Si vous avez des questions concernant l’association ? Vous souhaitez nous rejoindre ? Alors contactez
-                    nous afin que nous puissions répondre à l’ensemble de vos intérrogations. Cimaise prend très à coeur la
-                    relation avec nos collaborateurs. </p>
-                <p>Si vous êtes une entreprise, un média et que vous souhaitez nous proposer une collaboration, interview.
-                    Nous vous invitions à contacter notre service relation presse.</p>
+                <p>Vous avez des questions concernant l’association ou vous souhaitez nous rejoindre ? N’hésitez pas à nous contacter, nous répondrons avec plaisir à toutes vos interrogations. Cimaise prend très à cœur la relation avec nos collaborateurs.</p>
+                <p>Si vous êtes une entreprise, un média et que vous souhaitez nous proposer une collaboration, une interview, etc... nous vous invitons à contacter notre service relation presse.</p>
             </div>
 
             <div>
