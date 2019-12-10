@@ -19,10 +19,7 @@
             <div class="col-7">
                 <h3>La création</h3>
 
-                <p>Tout part d’une discussion entre amis “Que veux dire ce tableau ?”. De là nous sommes posés cette
-                    question sur chacune des oeuvres que nous croisions. Durant nos observations, nous avons compris
-                    quelques choses de très important, les oeuvres ont une histoire, un processus créatif qui nous
-                    échappe. </p>
+                <p>Tout part d’une discussion entre amis “Que veux dire ce tableau ?“. De là, nous nous sommes posés cette question sur chacune des œuvres que nous croisions. Nous avons fini par comprendre quelque choses de très important, : les œuvres ont une histoire, un processus créatif qui nous échappe.</p>
             </div>
 
             <div class="col-5 ligne">
@@ -31,18 +28,7 @@
 
             <div class="col-7">
 
-                <p>
-                    Depuis nous essayons de donner les clés de compréhension de l’art aux jeunes en particulier.
-                    Seulement créée en 2019, nous ne sommes pas encore reconnu comme assoication devant la lois. Nous
-                    avons déjà commencé à entamer les démarches. Cependant, nous avons commencé à agir avec Capsule,
-                    notre futur dispositif de sensibilisation aux arts. Capsule, c’est avant tout la volonté de créer
-                    une passerelle entre l’art et les enjeux de notre société pour permettre de mieux appréhender ces
-                    deux entités. C’est permettre de passer au dessus des fossés socio-culturels que nous avons
-                    précédemment mis en évidence. C’est aller à la rencontre de publics qui jusque là se
-                    désintéressaient de l’art, et provoquer leur curiosité en leur prouvant que l’art leur est
-                    accessible et surtout, enrichissant. Capsule, c’est ainsi un moyen de se libérer d’un quotidien
-                    souvent pesant et de s’épanouir grâce à l’art, en prenant un temps pour s’interroger sur soi-même
-                    via le prisme artistique.
+                <p>Depuis, nous essayons de donner, aux jeunes en particulier, les clés de compréhension de l’art. Créée en 2019, Cimaise n’est pas encore reconnue comme association devant la loi. Nous avons cependant entamer les démarches et agissons avec Capsule, notre futur dispositif de sensibilisation aux arts. Capsule, c’est avant tout la volonté de créer une passerelle entre l’art et les enjeux de notre société pour permettre de mieux appréhender ces deux entités, c’est permettre de passer au-dessus des fossés socio-culturels que nous avons précédemment mis en évidence, c’est aller à la rencontre du public qui jusque-là se désintéressaient de l’art, et de provoquer leur curiosité en leur prouvant que l’art leur est accessible et surtout enrichissant. Capsule est ainsi un moyen de se libérer d’un quotidien souvent pesant et de s’épanouir grâce à l’art, en prenant un temps pour s’interroger sur soi-même via le prisme artistique.
                 </p>
 
             </div>
@@ -53,8 +39,7 @@
 
         <section class='col-10'>
             <h3>Notre équipe</h3>
-            <p>11 étudiants avec des profils, des parcours et des personnalités différentes. Cependant, nous sommes tous
-                motivés par la même cause. Notre équipe est jeune, dynamique et motivé. </p>
+            <p>11 étudiants jeunes, dynamiques et enthousiastes, avec des profils, des parcours et des personnalités différentes et motivés par la même cause.</p>
             <div class="team">
 
                 <figure>

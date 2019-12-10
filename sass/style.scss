@@ -486,13 +486,14 @@ main {
     }
 
     p {
-      margin-bottom: 1%;
+      margin-bottom: 2%;
     }
 
     a {
       font-size: 14px;
       text-transform: uppercase;
       font-weight: bold;
+      background: $bleu;
     }
 
     @media only screen and (min-width: 768px) {
@@ -919,6 +920,10 @@ main {
   .sectionText>p:nth-child(2) {
     margin-bottom: 10%;
     text-align: center;
+  }
+
+  a{
+    color: $bleu;
   }
 }
 

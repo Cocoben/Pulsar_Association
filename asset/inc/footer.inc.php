@@ -9,7 +9,7 @@
                 </div>
                 <div>
                     <p class="h4">Missions</p>
-                    <p>Les arts sont des moyens d’expression des mœurs dans une époque donnée. Comprendre une oeuvre,
+                    <p>Les arts sont des moyens d’expression des mœurs, dans une époque donnée. Comprendre une oeuvre,
                         c’est comprendre l’environnement et le contexte dans laquelle elle émerge.</p>
                 </div>
             </section>

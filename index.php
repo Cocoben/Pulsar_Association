@@ -34,14 +34,13 @@
       <article class="col-6" data-aos="fade-up" data-aos-offset="50" data-aos-delay="50" data-aos-duration="800"
             data-aos-easing="ease-out">
         <figure>
-          <a href="article.php?id=1">
-            <img src="asset/img/article/article1-S.jpg" alt="">
+          <a href="https://www.capsule.cimaise.art/">
+            <img src="asset/img/article/article-capsule.png" alt="Article Capsule">
           </a>
         </figure>
         <div>
-          <h3>Pop art</h3>
-          <p>Technique mis en place par des éducateurs l’art thérapie
-            permet aujourd’hui d’apporter de réelles solutions pour créer un contact avec les jeunes .
+          <h3>Capsule</h3>
+          <p>L’association Cimaise annonce le lancement de son nouveau projet baptisé CAPSULE. Celui-ci a pour but de rendre l’art accessible pour tous et surtout, enrichissant.
           </p>
           <a href="">lire plus</a>
         </div>
@@ -52,7 +51,7 @@
             data-aos-easing="ease-out">
         <figure>
           <a href="article.php?id=2">
-            <img src="asset/img/article/article2-S.png" alt="">
+            <img src="asset/img/article/article2-S.png" alt="Article Art Thérapie">
           </a>
         </figure>
         <div>
@@ -88,22 +87,38 @@
     <h2>Actualité</h2>
 
     <div class="actualite">
-      <p class="date">22 novembre 2019</p>
+      <p class="date">24 Novembre 2019</p>
       <div>
         <p>
-          <strong>Cimaise valide sa stratégie de communication</strong>
-          Après 4 jours de travail extrèmement intensif l’association
-          a enfin validé sa stratégie auprès de Gregory Nedelec.</p>
+          <strong>Cimaise créée Capsule sont nouveau dispositif,</strong>
+          Comment réussir à sensibiliser aux arts les personnes en décrochage scolaire</p>
       </div>
     </div>
 
     <div class="actualite">
-      <p class=" date">22 novembre 2019</p>
+      <p class=" date">21 Novembre 2019</p>
       <div>
         <p>
-          <strong>Cimaise valide sa stratégie de communication</strong>
-          Après 4 jours de travail extrèmement intensif l’association
-          a enfin validé sa stratégie auprès de Gregory Nedelec.</p>
+          <strong>Cimaise signe avec l’agence Pulsar,</strong>
+          Cimaise et Pulsar s’associent pour réaliser la prochaine campagne de communication</p>
+      </div>
+    </div>
+
+    <div class="actualite">
+      <p class=" date">15 Novembre 2019</p>
+      <div>
+        <p>
+          <strong>Emmenagement dans nos locaux au 19 rue Voltaire,</strong>
+          Grande évolution pour notre association, nous avons de nouveaux locaux en plein coeur de Paris</p>
+      </div>
+    </div>
+
+    <div class="actualite">
+      <p class=" date">14 Novembre 2019</p>
+      <div>
+        <p>
+          <strong>Cimaise est créée par 11 étudiant de l’IESA Multimédia</strong>
+        </p>
       </div>
     </div>
 
